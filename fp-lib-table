@@ -1,0 +1,4 @@
+(fp_lib_table
+  (lib (name FT230XQ-R)(type Legacy)(uri "$(KIPRJMOD)/FT230XQ-R.mod")(options "")(descr ""))
+  (lib (name sellerie3000)(type KiCad)(uri "$(KIPRJMOD)/sellerie3000.pretty")(options "")(descr ""))
+)
