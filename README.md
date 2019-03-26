@@ -4,7 +4,9 @@ darling
 =======
 
 FTDI helper for the future. With FT230X, blinky lights and USB-C!
-Also potentially the tinest USB-C to Serial adapter in the world. :D
+Also potentially the tinest USB-C to Serial adapter in the world. :smiley:
+
+__Got a smaller USB-C to serial adapter? Please send me a link!__
 
 
 BOM
@@ -37,14 +39,35 @@ Schematics
 Create Gerber files
 -------------------
 
+After you exported the gerber and drill friles from KiCAD you can use [gerbolyze][gerbolyze] to add the artwork to it.
+
+Instal lgerbolyze with [pipsi][pipsi]:
+
+```
+pipsi install gerbolyze
+```
+
+To produce the template I used:
+
+```
+gerbolyze render bottom . preview.png
+```
+
+Then after adding the artwork use gerbolyze again to add it to the gerber files:
+
+```
+gerbolyze vectorize bottom . art preview_002.png
+```
 
 ---
 
-__Got a smaller USB-C to serial adapter? Please send me a link!__
+_Made with :heart: and aliexpress_
 
 
 [pcb]: https://gitlab.com/xengi/darling/raw/master/darling_pcb.png
 [3d]: https://gitlab.com/xengi/darling/raw/master/darling_3d.png
 [schema]: https://gitlab.com/xengi/darling/raw/master/darling_schema.png
 [octopart]: https://octopart.com/bom-tool/4VikRkAe
+[gerbolyze]: https://github.com/jaseg/gerbolyze
+[pipsi]: https://github.com/mitsuhiko/pipsi
 
