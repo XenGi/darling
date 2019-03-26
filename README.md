@@ -1,5 +1,4 @@
-![pcb][pcb]
-![3d model][3d]
+![pcb][pcb] ![3d model][3d]
 
 darling
 =======
