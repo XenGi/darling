@@ -3,8 +3,7 @@
 darling
 =======
 
-FTDI helper for the future. With FT230X, blinky lights and USB-C!
-Also potentially the tinest USB-C to Serial adapter in the world. :smiley:
+FTDI helper for the future. With FT230X, blinky lights and USB-C! Also potentially the tinyest USB-C to Serial adapter in the world. :smiley:
 
 __Got a smaller USB-C to serial adapter? Please send me a link!__
 
