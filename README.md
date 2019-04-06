@@ -26,7 +26,7 @@ BOM
 | Laird MI0805K601R-10 | 1   | 0805  | FB1    | Ferrite Bead     |
 
 See [Octopart][octopart] for a detailed list with links.
-With current prices this totals to € 3.84 just for parts excluding costs for the PCB manufacturing.
+With current prices this totals to € 3.84 just for parts excluding costs for the PCB manufacturing. If you need a PCB, just ask. I have lots of them. :)
 
 
 Schematics
@@ -40,23 +40,32 @@ Create Gerber files
 
 After you exported the gerber and drill friles from KiCAD you can use [gerbolyze][gerbolyze] to add the artwork to it.
 
-Instal lgerbolyze with [pipsi][pipsi]:
+Install gerbolyze with [pipsi][pipsi]:
 
 ```
 pipsi install gerbolyze
 ```
 
-To produce the template I used:
+I already created the template with `gerbolyze render bottom . preview.png` and added the artwork to the correct places.
+To add the results to the gerber files use:
 
 ```
-gerbolyze render bottom . preview.png
+gerbolyze vectorize bottom . gerber_art preview_002.png
 ```
 
-Then after adding the artwork use gerbolyze again to add it to the gerber files:
+This will create the needed gerber files including the artwork in a directory call `gerber_art`.
+
+To create a ZIP file with the needed gerber files for a PCB fab:
 
 ```
-gerbolyze vectorize bottom . art preview_002.png
+cd gerber_art
+zip darling.zip *.gbr *.drl
 ```
+
+I recommend [JLBPCB][jlbpcb] or [PCBWay][pcbway].
+If you want a purple PCB you can also use [OSHPark][oshpark]. I even uploaded the file for you: ;)
+
+[![https://oshpark.com/shared_projects/kPzv7Vwt][oshpark_darling_top] ![https://oshpark.com/shared_projects/kPzv7Vwt][oshpark_darling_bottom]][oshpark_darling]
 
 ---
 
@@ -69,4 +78,9 @@ _Made with :heart: and aliexpress_
 [octopart]: https://octopart.com/bom-tool/4VikRkAe
 [gerbolyze]: https://github.com/jaseg/gerbolyze
 [pipsi]: https://github.com/mitsuhiko/pipsi
-
+[jlbpcb]: https://jlcpcb.com/
+[pcbway]: https://www.pcbway.com/
+[oshpark]: https://oshpark.com/
+[oshpark_darling_top]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/4cdf6730748bda62907702a63351273b.png
+[oshpark_darling_bottom]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/9d2aeb22657234e79337596994ee9007.png
+[oshpark_darling]: https://oshpark.com/shared_projects/kPzv7Vwt
