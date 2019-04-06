@@ -38,7 +38,7 @@ Schematics
 Create Gerber files
 -------------------
 
-After you exported the gerber and drill friles from KiCAD you can use [gerbolyze][gerbolyze] to add the artwork to it.
+After you exported the gerber and drill friles from KiCAD to a subdir like `gerber` you can use [gerbolyze][gerbolyze] to add the artwork to it.
 
 Install gerbolyze with [pipsi][pipsi]:
 
@@ -46,11 +46,11 @@ Install gerbolyze with [pipsi][pipsi]:
 pipsi install gerbolyze
 ```
 
-I already created the template with `gerbolyze render bottom . preview.png` and added the artwork to the correct places.
+I already created the template with `gerbolyze render bottom gerber preview.png` and added the artwork to the correct places.
 To add the results to the gerber files use:
 
 ```
-gerbolyze vectorize bottom . gerber_art preview_002.png
+gerbolyze vectorize bottom gerber gerber_art preview_002.png
 ```
 
 This will create the needed gerber files including the artwork in a directory call `gerber_art`.
