@@ -15,8 +15,8 @@ BOM
 | -------------------- | -   | ----- | ------ | ---------------- |
 | Hirose CX70M-24P1    | 1   | -     | J1     | USB-C Receptacle |
 | FTDI FT230XQ-R       | 1   | QFN16 | U1     | USB-Serial IC    |
-| -                    | 1   | 0603  | D2     | Red TX LED       |
-| -                    | 1   | 0603  | D1     | Green RX LED     |
+| -                    | 1   | 0603  | D2     | Green TX LED     |
+| -                    | 1   | 0603  | D1     | Red RX LED       |
 | -                    | 2   | 0402  | R3, R4 | 270 Ohm Resistor |
 | -                    | 2   | 0402  | R1, R2 | 27 Ohm Resistor  |
 | -                    | 2   | 0402  | C5, C6 | 47 pF Capacitor  |
