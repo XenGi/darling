@@ -438,13 +438,13 @@ Wire Wire Line
 	6000 2500 7000 2500
 $Comp
 L Connector_Generic:Conn_01x05 J2
-U 0 0 5C9AEA0C
+U 1 1 5C9AEA0C
 P 6750 4400
 F 0 "J2" H 6830 4442 50  0000 L CNN
 F 1 "Conn_01x05" H 6830 4351 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6750 4400 50  0001 C CNN
 F 3 "~" H 6750 4400 50  0001 C CNN
-	0    6750 4400
+	1    6750 4400
 	1    0    0    -1  
 $EndComp
 $Comp
