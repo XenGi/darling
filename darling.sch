@@ -1,5 +1,6 @@
 EESchema Schematic File Version 4
-EELAYER 26 0
+LIBS:darling-cache
+EELAYER 29 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -437,13 +438,13 @@ Wire Wire Line
 	6000 2500 7000 2500
 $Comp
 L Connector_Generic:Conn_01x05 J2
-U 1 1 5C9AEA0C
+U 0 0 5C9AEA0C
 P 6750 4400
 F 0 "J2" H 6830 4442 50  0000 L CNN
 F 1 "Conn_01x05" H 6830 4351 50  0000 L CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x05_P2.54mm_Vertical" H 6750 4400 50  0001 C CNN
 F 3 "~" H 6750 4400 50  0001 C CNN
-	1    6750 4400
+	0    6750 4400
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -477,8 +478,6 @@ TX
 Wire Wire Line
 	6500 4150 6500 4200
 Wire Wire Line
-	6500 4200 6550 4200
-Wire Wire Line
 	6550 4300 6500 4300
 Wire Wire Line
 	6550 4400 6500 4400
@@ -494,4 +493,6 @@ NoConn ~ 3600 2700
 NoConn ~ 3600 2800
 NoConn ~ 3600 3600
 NoConn ~ 3600 3700
+Wire Wire Line
+	6500 4200 6550 4200
 $EndSCHEMATC
