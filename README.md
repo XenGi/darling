@@ -81,6 +81,6 @@ _Made with :heart: and aliexpress_
 [jlbpcb]: https://jlcpcb.com/
 [pcbway]: https://www.pcbway.com/
 [oshpark]: https://oshpark.com/
-[oshpark_darling_top]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/4cdf6730748bda62907702a63351273b.png
-[oshpark_darling_bottom]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/9d2aeb22657234e79337596994ee9007.png
+[oshpark_darling_top]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/59f4412db8c8043bc9fbc15d39daab12.png
+[oshpark_darling_bottom]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/00524058ed99e77c903ae4aa6ff48e40.png
 [oshpark_darling]: https://oshpark.com/shared_projects/64e99b5V
