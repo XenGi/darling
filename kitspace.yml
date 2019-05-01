@@ -1,0 +1,5 @@
+summary: FTDI helper for the future. With FT230X, blinky lights and USB-C!
+site: https://gitlab.com/XenGi/darling
+color: red
+bom: bom.tsv
+gerbers: gerber_art
