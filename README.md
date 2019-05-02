@@ -22,7 +22,7 @@ BOM
 | -                    | 2   | 0402  | C5, C6 | 47 pF Capacitor  |
 | -                    | 1   | 0402  | C1     | 10 nF Capacitor  |
 | -                    | 1   | 0402  | C3     | 4.7 uF Capacitor |
-| -                    | 1   | 0402  | C2     | 100 nF Capacitor |
+| -                    | 2   | 0402  | C2, C4 | 100 nF Capacitor |
 | Laird MI0805K601R-10 | 1   | 0805  | FB1    | Ferrite Bead     |
 
 See [Octopart][octopart] for a detailed list with links.
@@ -38,7 +38,7 @@ Schematics
 Create Gerber files
 -------------------
 
-After you exported the gerber and drill friles from KiCAD to a subdir like `gerber` you can use [gerbolyze][gerbolyze] to add the artwork to it.
+After you exported the gerber and drill friles from KiCAD to a subdir like `gerber` you can use the [gerbolyze tool][gerbolyze] or the [webservice][gerbolyze_web] to add the artwork to it.
 
 Install gerbolyze with [pipsi][pipsi]:
 
@@ -53,7 +53,7 @@ To add the results to the gerber files use:
 gerbolyze vectorize bottom gerber gerber_art preview_002.png
 ```
 
-This will create the needed gerber files including the artwork in a directory call `gerber_art`.
+This will create the needed gerber files including the artwork in a directory called `gerber_art`.
 
 To create a ZIP file with the needed gerber files for a PCB fab:
 
@@ -62,10 +62,11 @@ cd gerber_art
 zip darling.zip *.gbr *.drl
 ```
 
-I recommend [JLBPCB][jlbpcb] or [PCBWay][pcbway].
-If you want a purple PCB you can also use [OSHPark][oshpark]. I even uploaded the file for you: ;)
+I recommend [JLCPCB][jlcpcb]. It's the cheapest way to get the PCBs and they offer decent quality.
+If you want purple PCBs you can also use [OSHPark][oshpark].
+If you want it faster and you're in Germany I uploaded it to [Aisler][aisler] to.
 
-[![https://oshpark.com/shared_projects/kPzv7Vwt][oshpark_darling_top] ![https://oshpark.com/shared_projects/kPzv7Vwt][oshpark_darling_bottom]][oshpark_darling]
+[![pcb top][oshpark_darling_top] ![pcb bottom][oshpark_darling_bottom]][oshpark]
 
 ---
 
@@ -77,10 +78,10 @@ _Made with :heart: and aliexpress_
 [schema]: https://gitlab.com/xengi/darling/raw/master/darling_schema.png
 [octopart]: https://octopart.com/bom-tool/4VikRkAe
 [gerbolyze]: https://github.com/jaseg/gerbolyze
+[gerbolyze]: https://gerbolyze.jaseg.net/
 [pipsi]: https://github.com/mitsuhiko/pipsi
-[jlbpcb]: https://jlcpcb.com/
-[pcbway]: https://www.pcbway.com/
-[oshpark]: https://oshpark.com/
+[jlcpcb]: https://jlcpcb.com/
 [oshpark_darling_top]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/59f4412db8c8043bc9fbc15d39daab12.png
 [oshpark_darling_bottom]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/00524058ed99e77c903ae4aa6ff48e40.png
-[oshpark_darling]: https://oshpark.com/shared_projects/64e99b5V
+[oshpark]: https://oshpark.com/shared_projects/64e99b5V
+[aisler]: https://aisler.net/p/BKENIMBY
