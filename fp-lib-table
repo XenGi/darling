@@ -1,3 +1,5 @@
 (fp_lib_table
-  (lib (name HIROSE_CX70M-24P1)(type KiCad)(uri ${KIPRJMOD}/HIROSE_CX70M-24P1.pretty)(options "")(descr ""))
+  (version 7)
+  (lib (name "HIROSE_CX70M-24P1")(type "KiCad")(uri "${KIPRJMOD}/HIROSE_CX70M-24P1.pretty")(options "")(descr ""))
+  (lib (name "002")(type "KiCad")(uri "${KIPRJMOD}/002")(options "")(descr ""))
 )
