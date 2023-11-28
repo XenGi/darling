@@ -41,27 +41,10 @@ Schematics
 Create Gerber files
 -------------------
 
-After you exported the gerber and drill friles from KiCAD to a subdir like `gerber` you can use the [gerbolyze tool][gerbolyze] or the [webservice][gerbolyze_web] to add the artwork to it.
-
-Install gerbolyze with [pipsi][pipsi]:
+Export the gerber and drill files from KiCAD to a subdir like `gerber`. To create a ZIP file with the needed gerber files for a PCB fab:
 
 ```
-pipsi install gerbolyze
-```
-
-I already created the template with `gerbolyze render bottom gerber preview.png` and added the artwork to the correct places.
-To add the results to the gerber files use:
-
-```
-gerbolyze vectorize bottom gerber gerber_art preview_002.png
-```
-
-This will create the needed gerber files including the artwork in a directory called `gerber_art`.
-
-To create a ZIP file with the needed gerber files for a PCB fab:
-
-```
-cd gerber_art
+cd gerber
 zip darling.zip *.gbr *.drl
 ```
 
@@ -80,11 +63,8 @@ _Made with :heart: and aliexpress_
 [3d]: https://gitlab.com/xengi/darling/raw/master/darling_3d.png
 [schema]: https://gitlab.com/xengi/darling/raw/master/darling_schema.png
 [octopart]: https://octopart.com/bom-tool/4VikRkAe
-[gerbolyze]: https://github.com/jaseg/gerbolyze
-[gerbolyze]: https://gerbolyze.jaseg.net/
-[pipsi]: https://github.com/mitsuhiko/pipsi
 [jlcpcb]: https://jlcpcb.com/
-[oshpark_darling_top]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/59f4412db8c8043bc9fbc15d39daab12.png
-[oshpark_darling_bottom]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/00524058ed99e77c903ae4aa6ff48e40.png
-[oshpark]: https://oshpark.com/shared_projects/64e99b5V
-[aisler]: https://aisler.net/p/BKENIMBY
+[oshpark_darling_top]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/4cf1ffcfeee0332e9eda92195310da6b.png
+[oshpark_darling_bottom]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/1f266f38a687f960f46bc39729592b03.png
+[oshpark]: https://oshpark.com/shared_projects/s8UnAcGC
+[aisler]: https://aisler.net/p/RTBHDJQK
