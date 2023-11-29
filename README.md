@@ -1,7 +1,9 @@
 ![maintenance](https://img.shields.io/maintenance/yes/2023)
 [![Donate using Liberapay](https://liberapay.com/assets/widgets/donate.svg)](https://liberapay.com/xengi/donate)
 
-![pcb][pcb] ![3d model][3d]
+![pcb][pcb]
+![3d model front][3d-front]
+![3d model back][3d-back]
 
 darling
 =======
@@ -60,7 +62,8 @@ _Made with :heart: and aliexpress_
 
 
 [pcb]: https://gitlab.com/xengi/darling/raw/master/darling_pcb.png
-[3d]: https://gitlab.com/xengi/darling/raw/master/darling_3d.png
+[3d-front]: https://gitlab.com/xengi/darling/raw/master/darling_3d_front.png
+[3d-back]: https://gitlab.com/xengi/darling/raw/master/darling_3d_back.png
 [schema]: https://gitlab.com/xengi/darling/raw/master/darling_schema.png
 [octopart]: https://octopart.com/bom-tool/4VikRkAe
 [jlcpcb]: https://jlcpcb.com/
