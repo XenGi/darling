@@ -1,8 +1,12 @@
 *.zip
 gerber/
 
-# Created by https://www.toptal.com/developers/gitignore/api/linux,windows,osx,kicad
-# Edit at https://www.toptal.com/developers/gitignore?templates=linux,windows,osx,kicad
+# Created by https://www.toptal.com/developers/gitignore/api/linux,windows,osx,kicad,direnv
+# Edit at https://www.toptal.com/developers/gitignore?templates=linux,windows,osx,kicad,direnv
+
+### direnv ###
+.direnv
+.envrc
 
 ### KiCad ###
 # For PCBs designed using KiCad: https://www.kicad.org/
@@ -112,4 +116,4 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
-# End of https://www.toptal.com/developers/gitignore/api/linux,windows,osx,kicad
+# End of https://www.toptal.com/developers/gitignore/api/linux,windows,osx,kicad,direnv
