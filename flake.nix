@@ -11,7 +11,6 @@
       in {
         devShells.default = pkgs.mkShell {
           packages = with pkgs; [
-            kicad
             zip
           ];
         };
