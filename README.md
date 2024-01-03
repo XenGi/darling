@@ -30,7 +30,7 @@ BOM
 | Laird MI0805K601R-10 | 1   | 0805  | FB1    | Ferrite Bead     |
 
 See [Octopart][octopart] for a detailed list with links.
-With current prices this totals to € 3.84 just for parts excluding costs for the PCB manufacturing. If you need a PCB, just ask. I have lots of them. :)
+With current prices this totals to ~4.50€ just for parts excluding costs for the PCB manufacturing. If you need a PCB, just ask. I have lots of them. :)
 
 
 Schematics
