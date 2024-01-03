@@ -52,7 +52,7 @@ zip darling.zip *.gbr *.drl
 
 I recommend [JLCPCB][jlcpcb]. It's the cheapest way to get the PCBs and they offer decent quality.
 If you want purple PCBs you can also use [OSHPark][oshpark].
-If you want it faster and you're in Germany I uploaded it to [Aisler][aisler] to.
+If you want it faster and you're in Germany/EU I uploaded it to [Aisler][aisler] to.
 
 [![pcb top][oshpark_darling_top] ![pcb bottom][oshpark_darling_bottom]][oshpark]
 
@@ -70,4 +70,4 @@ _Made with :heart: and aliexpress_
 [oshpark_darling_top]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/4cf1ffcfeee0332e9eda92195310da6b.png
 [oshpark_darling_bottom]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/1f266f38a687f960f46bc39729592b03.png
 [oshpark]: https://oshpark.com/shared_projects/s8UnAcGC
-[aisler]: https://aisler.net/p/RTBHDJQK
+[aisler]: https://aisler.net/p/NFTQABKA
