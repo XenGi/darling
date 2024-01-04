@@ -18,6 +18,7 @@ BOM
 | Part                 | Qty | Pkg   | Ref    | Description      |
 | -------------------- | -   | ----- | ------ | ---------------- |
 | Hirose CX70M-24P1    | 1   | -     | J1     | USB-C Receptacle |
+|                      | 1   | -     | J2     | Pin Header       |
 | FTDI FT230XQ-R       | 1   | QFN16 | U1     | USB-Serial IC    |
 | -                    | 1   | 0603  | D2     | Green TX LED     |
 | -                    | 1   | 0603  | D1     | Red RX LED       |

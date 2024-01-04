@@ -2002,7 +2002,7 @@
     (property "LCSC" "C6332198" (at 156.21 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (property "Mouser" "910-HDR100IMP40MGVTH" (at 156.21 109.22 0)
+    (property "Mouser" "571-826947-5" (at 156.21 109.22 0)
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "1" (uuid c864d3c1-acdc-4fc9-a543-04f71837e921))
