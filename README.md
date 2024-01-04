@@ -15,20 +15,21 @@ __Got a smaller USB-C to serial adapter? Please send me a link!__
 BOM
 ---
 
-| Part                 | Qty | Pkg   | Ref    | Description      |
-| -------------------- | -   | ----- | ------ | ---------------- |
-| Hirose CX70M-24P1    | 1   | -     | J1     | USB-C Receptacle |
-|                      | 1   | -     | J2     | Pin Header       |
-| FTDI FT230XQ-R       | 1   | QFN16 | U1     | USB-Serial IC    |
-| -                    | 1   | 0603  | D2     | Green TX LED     |
-| -                    | 1   | 0603  | D1     | Red RX LED       |
-| -                    | 2   | 0402  | R3, R4 | 270 Ohm Resistor |
-| -                    | 2   | 0402  | R1, R2 | 27 Ohm Resistor  |
-| -                    | 2   | 0402  | C5, C6 | 47 pF Capacitor  |
-| -                    | 1   | 0402  | C1     | 10 nF Capacitor  |
-| -                    | 1   | 0402  | C3     | 4.7 uF Capacitor |
-| -                    | 2   | 0402  | C2, C4 | 100 nF Capacitor |
-| Laird MI0805K601R-10 | 1   | 0805  | FB1    | Ferrite Bead     |
+| Part                 | Qty | Pkg   | Ref    | Description       | Mouser | LCSC |
+| -------------------- | -   | ----- | ------ | ----------------- | ------ | ---- |
+| Hirose CX70M-24P1    | 1   | -     | J1     | USB-C Receptacle  | [798-CX70M-24P1](https://eu.mouser.com/ProductDetail/Hirose-Connector/CX70M-24P1?qs=NniTrqY%252BJ%252BUR9QssvRGPwA%3D%3D) | [C778726](https://www.lcsc.com/product-detail/C778726.html) |
+| -                    | 1   | -     | J2     | Pin Header        | [571-826947-5](https://eu.mouser.com/ProductDetail/TE-Connectivity/826947-5?qs=xF5SkmKSM76JMcUnQ8djKQ%3D%3D) | [C6332198](https://www.lcsc.com/product-detail/C6332198) |
+| FTDI FT230XQ-R       | 1   | QFN16 | U1     | USB-Serial IC     | [895-FT230XQ-R](https://eu.mouser.com/ProductDetail/FTDI/FT230XQ-R?qs=Gp1Yz1mis3VvmXwyDmIHOg%3D%3D) | [C128629](https://www.lcsc.com/product-detail/C128629) |
+| -                    | 1   | 0603  | D1     | Red RX LED        | [710-150060GS75000](https://eu.mouser.com/ProductDetail/Wurth-Elektronik/150060GS75000?qs=LlUlMxKIyB0UYkq5lDO8nA%3D%3D) | [C965804](https://www.lcsc.com/product-detail/C965804) |
+| -                    | 1   | 0603  | D2     | Green TX LED      | [710-150060RS75000](https://eu.mouser.com/ProductDetail/Wurth-Elektronik/150060RS75000?qs=LlUlMxKIyB3QnmZ3fw%2FVCA%3D%3D) | [C965799](https://www.lcsc.com/product-detail/C965799) |
+| -                    | 2   | 0402  | R1, R2 | 27 Ohm Resistor   | [652-CR0402FX-27R0GLF](https://eu.mouser.com/ProductDetail/Bourns/CR0402-FX-27R0GLF?qs=SFHnMgm9IsxG%252BvpJZf0h2g%3D%3D) | [C138021](https://www.lcsc.com/product-detail/C138021) |
+| -                    | 2   | 0402  | R3, R4 | 270 Ohm Resistor  | [652-CR0402FX-2700GLF](https://eu.mouser.com/ProductDetail/Bourns/CR0402-FX-2700GLF?qs=SFHnMgm9IsyXrY3JqhOnHQ%3D%3D) | [C163474](https://www.lcsc.com/product-detail/C163474) |
+| -                    | 2   | 0402  | R5, R6 | 5.1 kOhm Resistor | [652-CR0402FX-5101GLF](https://eu.mouser.com/ProductDetail/Bourns/CR0402-FX-5101GLF?qs=ePR1ZvdkOKImkuXR%2F%2FtvtA%3D%3D) | [C105873](https://www.lcsc.com/product-detail/C105873) |
+| -                    | 1   | 0402  | C1     | 10 nF Capacitor   | [80-C0402C103K3R7867](https://eu.mouser.com/ProductDetail/KEMET/C0402C103K3RAC7867?qs=2QcrrtqkWlmbWpEppaNgjw%3D%3D) | [C272878](https://www.lcsc.com/product-detail/C272878) |
+| -                    | 2   | 0402  | C2, C4 | 100 nF Capacitor  | [81-GRM155C71H104JE9J](https://eu.mouser.com/ProductDetail/Murata-Electronics/GRM155C71H104JE19J?qs=QzBtWTOodeUR0Y4f0k0Zww%3D%3D) | [C541464](https://www.lcsc.com/product-detail/C541464) |
+| -                    | 1   | 0402  | C3     | 4.7 uF Capacitor  | [81-GRM15C61E475ME15J](https://eu.mouser.com/ProductDetail/Murata-Electronics/GRM155C61E475ME15J?qs=By6Nw2ByBD02p8xq06vhEQ%3D%3D) | [C368809](https://www.lcsc.com/product-detail/C368809) |
+| -                    | 2   | 0402  | C5, C6 | 47 pF Capacitor   | [81-GRT1555C1H470FA2D](https://eu.mouser.com/ProductDetail/Murata-Electronics/GRT1555C1H470FA02D?qs=RcG8xmE7yp3he2Sm3%2FOw%252Bg%3D%3D) | [C527009](https://www.lcsc.com/product-detail/C527009) |
+| Laird MI0805K601R-10 | 1   | 0805  | FB1    | Ferrite Bead      | [875-MI0805K601R-10](https://eu.mouser.com/ProductDetail/Laird-Performance-Materials/MI0805K601R-10?qs=bbdZqDPQhEXXIHxc191aOg%3D%3D) | [C21286](https://www.lcsc.com/product-detail/C21286) |
 
 See [Octopart][octopart] for a detailed list with links.
 With current prices this totals to ~4.50€ just for parts excluding costs for the PCB manufacturing. If you need a PCB, just ask. I have lots of them. :)
