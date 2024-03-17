@@ -52,6 +52,7 @@ zip darling.zip *.gbr *.drl
 ```
 
 I recommend [JLCPCB][jlcpcb]. It's the cheapest way to get the PCBs and they offer decent quality.
+You can directly order it at [PCBWay][pcbway]. They've got some nice matte black PCBs!
 If you want purple PCBs you can also use [OSHPark][oshpark].
 If you want it faster and you're in Germany/EU I uploaded it to [Aisler][aisler] to.
 
@@ -68,6 +69,7 @@ _Made with :heart: and aliexpress_
 [schema]: https://gitlab.com/xengi/darling/raw/master/darling_schema.png
 [octopart]: https://octopart.com/bom-tool/4VikRkAe
 [jlcpcb]: https://jlcpcb.com/
+[pcbway]: https://www.pcbway.com/project/shareproject/Darling_Rev4_f9889cb6.html
 [oshpark_darling_top]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/4cf1ffcfeee0332e9eda92195310da6b.png
 [oshpark_darling_bottom]: https://644db4de3505c40a0444-327723bce298e3ff5813fb42baeefbaa.ssl.cf1.rackcdn.com/1f266f38a687f960f46bc39729592b03.png
 [oshpark]: https://oshpark.com/shared_projects/s8UnAcGC
